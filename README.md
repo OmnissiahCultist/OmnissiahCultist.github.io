@@ -1,5 +1,5 @@
-# Under Construction!
+# CURRENTLY AI SLOP!!!
 
 <br>
 
-- Website shenanigans
+## Real Thing is Under Construction!
