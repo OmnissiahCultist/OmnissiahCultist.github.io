@@ -3,6 +3,13 @@ layout: default
 title: Cybersecurity Resources
 ---
 
+# READ ME FIRST
+Links are still getting migrated but click [on me to see the originals!](https://github.com/OmnissiahCultist/InfoSec_Resources)
+
+<br>
+
+---
+
 # 📚 Cybersecurity Resources
 
 This section serves as a curated hub for learning, tooling, industry insight, and professional development.
