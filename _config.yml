@@ -6,4 +6,5 @@ markdown: kramdown
 
 header_pages:
   - index.md
+  - resources.md
   - projects.md
