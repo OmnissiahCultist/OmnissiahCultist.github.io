@@ -3,6 +3,8 @@ layout: default
 title: Home
 ---
 
+## Website under construction - still being vibe developed!
+
 # 👋 Welcome
 
 I'm **Zach**, an aspiring cybersecurity professional focused on building a solid foundation across blue team, red team, and DFIR domains.
@@ -14,8 +16,6 @@ This is my GitHub Pages portfolio — a place to:
 
 ---
 
-## 🚀 Explore
+## 🚀 Still a little AI sloppy but it's coming together! 🚀
 
-- 🔗 [Resources](./resources.md) — Curated cybersecurity tools, utilities, learning material, and cheat sheets  
-- 🔗 [Projects](./projects.md) — A categorized view of ideas, working projects, completed work, and archived experiments  
-- 🔗 [Certifications & CTFs](https://linktr.ee/OmnissiahCultist) — My badges, scores, and credentials  
+- 🔗 [My Links!](https://linktr.ee/OmnissiahCultist) 
