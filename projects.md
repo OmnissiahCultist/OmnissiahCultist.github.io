@@ -21,7 +21,7 @@ Projects and concepts I plan to build or research in the future.
 ## 🚧 Working
 Active projects currently being built or refined.
 
-- Active Directory Lab Work
+- [Active Directory Lab Work](./Active_Directory_Lab.md)
   - A project to go alongside learning AD from different sources.
 
 ---
@@ -36,7 +36,7 @@ Personal projects that I have finished or am satisfied with the results.
 ---
 
 ## 🗃️ Archived
-Older or paused projects that may still offer insight.
+These are inactive or shelved projects; either absorbed elsewhere or I was satisfied with what I gained. Even though I decided to spend my time elsewhere, I like to see how far I have come with each one.
 
 - [One-Time Pad Code](https://github.com/OmnissiahCultist/One-time-pad-python-practice)
   - A project to replicate the steps of creating a one-time pad encryption method.
