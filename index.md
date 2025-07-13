@@ -5,11 +5,17 @@ title: Home
 
 # 👋 Welcome
 
-I'm Zach, an aspiring cybersecurity professional.
+I'm **Zach**, an aspiring cybersecurity professional focused on building a solid foundation across blue team, red team, and DFIR domains.
 
-This site is a living portfolio of my:
-- 🔧 Projects
-- 📚 Curated Resources
-- 🛡️ Certifications & CTF Involvement
+This is my GitHub Pages portfolio — a place to:
+- 📚 Curate cybersecurity tools and learning resources
+- 🛠️ Showcase personal projects and hands-on labs
+- 🎯 Track my professional development
 
-> Work in progress. Thanks for visiting!
+---
+
+## 🚀 Explore
+
+- 🔗 [Resources](./resources.md) — Curated cybersecurity tools, utilities, learning material, and cheat sheets  
+- 🔗 [Projects](./projects.md) — A categorized view of ideas, working projects, completed work, and archived experiments  
+- 🔗 [Certifications & CTFs](https://linktr.ee/OmnissiahCultist) — My badges, scores, and credentials  
