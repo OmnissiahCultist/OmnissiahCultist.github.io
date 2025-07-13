@@ -2,3 +2,8 @@ title: OmnissiahCultist's Cybersecurity Portfolio
 description: A curated portfolio of cybersecurity tools, resources, and projects.
 theme: minima
 markdown: kramdown
+
+
+header_pages:
+  - index.md
+  - projects.md
