@@ -12,29 +12,34 @@ A categorized list of cybersecurity-related work I've developed, contributed to,
 ## 💡 Ideas
 Projects and concepts I plan to build or research in the future.
 
-- ✍️ Example: Network simulation with Docker-based blue team detection lab  
-- 🧪 Example: Learning SAML abuse via identity lab
+- Regional Calendar Scalable Webservice
+  - A project attempting to automate my [local calendar](https://teamup.com/ksy7u2mm2g4rknfr21). Hopefully I can expand it's scope and maybe even make a solution for other regions.
+
 
 ---
 
 ## 🚧 Working
 Active projects currently being built or refined.
 
-- 🔧 Flask app security hardening with MySQL & Docker  
-- 🕵️ OSINT phishing investigation write-up  
+- Active Directory Lab Work
+  - A project to go alongside learning AD from different sources.
 
 ---
 
 ## ✅ Completed
-Projects I consider finished or presentable.
+Personal projects that I have finished or am satisfied with the results.
 
-- ✅ Simple Python OTP script with secure file delete  
-- ✅ Portfolio website via GitHub Pages  
+- [OSINT Investigation (Phishing) Blogpost](https://github.com/OmnissiahCultist/OSINT_investigation_phishing)
+   - A blog post detailing my experience using OSINT tools to investigate a phishing attempt and identify suspicious connections. Real world example but the actual individuals involved will not be referenced in order to discourage exploitation/abuse.
+
 
 ---
 
 ## 🗃️ Archived
 Older or paused projects that may still offer insight.
 
-- 🗃️ Arch Linux VM installer automation  
-- 🗃️ Obsolete scraping tool that taught me async Python
+- [One-Time Pad Code](https://github.com/OmnissiahCultist/One-time-pad-python-practice)
+  - A project to replicate the steps of creating a one-time pad encryption method.
+
+- [Hardening Flask Webapp + SQL DB](https://github.com/OmnissiahCultist/Webapp_Securing_Project)
+  - A project exploring webapp and database communications, deployment methods, and security hardening techniques. 
