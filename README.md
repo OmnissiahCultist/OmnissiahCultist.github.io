@@ -1,7 +1,3 @@
-## Hi there, welcome to my GitHub profile! 👋
-- I'm currently tidying things up, so it's still under construction!
-
-<br>
 
 ---
 # About Me
