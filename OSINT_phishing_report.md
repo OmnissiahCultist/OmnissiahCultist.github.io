@@ -1,5 +1,9 @@
 # OSINT Phishing Investigation: Case Study Report
 
+<br>
+
+---
+
 ## Foreword
 All names/contacts were replaced for privacy concerns, and pictures of any methods are not provided for the same reasons. This is not a highly technical investigation; it was more of a personal exercise in practicing OSINT with an actual application and relevance to a real-world scenario (not just a home lab or experimentation with tools).
 
