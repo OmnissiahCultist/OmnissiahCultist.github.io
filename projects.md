@@ -29,7 +29,7 @@ Active projects currently being built or refined.
 ## ✅ Completed
 Personal projects that I have finished or am satisfied with the results.
 
-- [OSINT Investigation (Phishing) Blogpost](https://github.com/OmnissiahCultist/OSINT_investigation_phishing)
+- [OSINT Investigation (Phishing) Report](./OSINT_phishing_report.md)
    - A blog post detailing my experience using OSINT tools to investigate a phishing attempt and identify suspicious connections. Real world example but the actual individuals involved will not be referenced in order to discourage exploitation/abuse.
 
 
