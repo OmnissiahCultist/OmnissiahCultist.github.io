@@ -2,9 +2,15 @@
   
   <summary><h1>[ Initial Hopes and Dreams ]</h1></summary>
 
-  This project is more of setting up a playground for me to get some hands on experience with Active Directory. I have experienced some lab work involving active directory through my CompTIA Network+ course (TestOut - offered through my community college) where they had virtual environments of a fully deployed AD that you would tweak here and there to achieve some trouble shooting or initiliazation of services.
-  I also have lab experience gained from the course [Workshop: Intro to Active Directory with Dale Hobbs](https://www.antisyphontraining.com/product/workshop-intro-to-active-directory-with-dale-hobbs/) from Antisyphon training. I got a decent overview of central AD components as well as hands-on experience through a variety of labs. This course was the biggest contributer to me wanting to create my own lab space - AD for me is a very heavy hitting concept and one I have had to review again and again. The hands on moments I got the closest in my understanding so that is why I want to play around in my own lab space and try to scale and harden AD within my means.
-  My main goal here is to try and get AD deployed on my home network, then try to create an environment that can be hardened and tested to get both offensive and defensive perspectives on how you can lock down AD.
+This project is more about setting up a playground for me to get some hands-on experience with Active Directory.  
+I’ve had some lab work involving Active Directory through my CompTIA Network+ course (TestOut — offered through my community college), where they provided virtual environments of a fully deployed AD setup. In those labs, you would tweak configurations here and there to perform troubleshooting tasks or initialize services.
+
+I also gained lab experience from the course [**Workshop: Intro to Active Directory with Dale Hobbs**](https://www.antisyphontraining.com/product/workshop-intro-to-active-directory-with-dale-hobbs/) offered by Antisyphon Training.  
+That course gave me a solid overview of central AD components, along with hands-on practice through a variety of labs. It was the biggest contributor to my desire to build my own lab space.  
+Active Directory is a heavy-hitting concept for me — one I’ve had to review repeatedly to get a solid grasp. The hands-on labs brought me the closest to understanding it, so that’s why I want to experiment in my own lab environment and see how far I can scale and harden AD within my means.
+
+My main goal here is to deploy Active Directory in my home network and then create an environment I can both harden and test — giving myself perspectives from both offensive and defensive angles on how AD can be locked down.
+
   
 </details>
 
