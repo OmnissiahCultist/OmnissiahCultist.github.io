@@ -1,141 +1,162 @@
-> 🚧 **Work in Progress** 🚧  
-> This project page is actively being updated as I build out my lab environment and document my experience.  
-> I plan on adding these too in future updates:
-> 
-> - Network diagrams showing the associated devices and configurations.
-> - Screenshots from Active Directory to provide context and visual references.
-> - Integration of images in a way that enhances readability and flow.
-> - A comprehensive deep dive section — either as a final overview or integrated with each daily log — to better capture my deployment process and key takeaways.
+<p><strong>🚧 Work in Progress 🚧</strong><br>
+This project page is actively being updated as I build out my lab environment and document my experience.<br>
+I plan on adding these too in future updates:
+</p>
 
-<br>
-<br>
+<ul>
+  <li>Network diagrams showing the associated devices and configurations.</li>
+  <li>Screenshots from Active Directory to provide context and visual references.</li>
+  <li>Integration of images in a way that enhances readability and flow.</li>
+  <li>A comprehensive deep dive section — either as a final overview or integrated with each daily log — to better capture my deployment process and key takeaways.</li>
+</ul>
+
+<br><br>
 
 <details>
-  
   <summary><h1>[ Initial Hopes and Dreams ]</h1></summary>
+  <br>
 
-This project is more about setting up a playground for me to get some hands-on experience with Active Directory.  
-I’ve had some lab work involving Active Directory through my CompTIA Network+ course (TestOut — offered through my community college), where they provided virtual environments of a fully deployed AD setup. In those labs, you would tweak configurations here and there to perform troubleshooting tasks or initialize services.
+  <p>This project is more about setting up a playground for me to get some hands-on experience with Active Directory.<br>
+  I’ve had some lab work involving Active Directory through my CompTIA Network+ course (TestOut — offered through my community college), where they provided virtual environments of a fully deployed AD setup. In those labs, you would tweak configurations here and there to perform troubleshooting tasks or initialize services.
+  </p>
 
-I also gained lab experience from the course [**Workshop: Intro to Active Directory with Dale Hobbs**](https://www.antisyphontraining.com/product/workshop-intro-to-active-directory-with-dale-hobbs/) offered by Antisyphon Training.  
-That course gave me a solid overview of central AD components, along with hands-on practice through a variety of labs. It was the biggest contributor to my desire to build my own lab space.  
-Active Directory is a heavy-hitting concept for me — one I’ve had to review repeatedly to get a solid grasp. The hands-on labs brought me the closest to understanding it, so that’s why I want to experiment in my own lab environment and see how far I can scale and harden AD within my means.
+  <p>
+  I also gained lab experience from the course <a href="https://www.antisyphontraining.com/product/workshop-intro-to-active-directory-with-dale-hobbs/"><strong>Workshop: Intro to Active Directory with Dale Hobbs</strong></a> offered by Antisyphon Training.<br>
+  That course gave me a solid overview of central AD components, along with hands-on practice through a variety of labs. It was the biggest contributor to my desire to build my own lab space.<br>
+  Active Directory is a heavy-hitting concept for me — one I’ve had to review repeatedly to get a solid grasp. The hands-on labs brought me the closest to understanding it, so that’s why I want to experiment in my own lab environment and see how far I can scale and harden AD within my means.
+  </p>
 
-My main goal here is to deploy Active Directory in my home network and then create an environment I can both harden and test — giving myself perspectives from both offensive and defensive angles on how AD can be locked down.
+  <p>
+  My main goal here is to deploy Active Directory in my home network and then create an environment I can both harden and test — giving myself perspectives from both offensive and defensive angles on how AD can be locked down.
+  </p>
 
-  
 </details>
 
-<br>
-<br>
+<br><br>
 
 <details>
-  
   <summary><h1>[ Jul. 11, 2025 ]</h1></summary>
+  <br>
 
-## 📅 July 11 – Initial Environment Setup
+  <h3>📅 July 11 – Initial Environment Setup</h3>
 
-**Things Done:**
-- Created the initial Windows Server VM and Kali Linux VM.
-- Established network communication between the two VMs.
-- Installed Active Directory Domain Services (AD DS) and promoted Windows Server to a domain controller.
-- Confirmed DHCP allocation working via libvirt virtual network (NAT mode).
-- Configured DNS and network settings to allow basic connectivity across VMs.
+  <strong>Things Done:</strong>
+  <ul>
+    <li>Created the initial Windows Server VM and Kali Linux VM.</li>
+    <li>Established network communication between the two VMs.</li>
+    <li>Installed Active Directory Domain Services (AD DS) and promoted Windows Server to a domain controller.</li>
+    <li>Confirmed DHCP allocation working via libvirt virtual network (NAT mode).</li>
+    <li>Configured DNS and network settings to allow basic connectivity across VMs.</li>
+  </ul>
 
-**Things To Do:**
-- Verify DNS and name resolution from Kali to Windows Server.
-- Begin Active Directory Domain Services (AD DS) setup.
-- Decide on naming conventions for domains, users, and devices before scaling.
+  <strong>Things To Do:</strong>
+  <ul>
+    <li>Verify DNS and name resolution from Kali to Windows Server.</li>
+    <li>Begin Active Directory Domain Services (AD DS) setup.</li>
+    <li>Decide on naming conventions for domains, users, and devices before scaling.</li>
+  </ul>
 
-**My Commentary:**
-- None. Straightforward actions and I am satisfied with progress.
- 
+  <strong>My Commentary:</strong>
+  <blockquote>- None. Straightforward actions and I am satisfied with progress.</blockquote>
+
 </details>
 
-<br>
-<br>
+<br><br>
 
 <details>
-  
   <summary><h1>[ Jul. 12, 2025 ]</h1></summary>
+  <br>
 
-  
-## 📅 July 12 – Active Directory and User Structure
+  <h3>📅 July 12 – Active Directory and User Structure</h3>
 
-**Things Done:**
-- Added Kali Linux as a BYOD-like client with a corresponding AD user `Kal Eye`.
-- Created a new Windows workstation VM `HR-0002-win` and contextual workstations/OUs (`HR-0001-win` & `HR-0003-win`).
-- Registered two users: **Trevor Ross** and **Nicole Jule**, both assigned to use `HR-0002-win`.
-- Created a logical OU structure in ADUC for users, departments, and devices (simulating HR department).
+  <strong>Things Done:</strong>
+  <ul>
+    <li>Added Kali Linux as a BYOD-like client with a corresponding AD user <code>Kal Eye</code>.</li>
+    <li>Created a new Windows workstation VM <code>HR-0002-win</code> and contextual workstations/OUs (<code>HR-0001-win</code> & <code>HR-0003-win</code>).</li>
+    <li>Registered two users: <strong>Trevor Ross</strong> and <strong>Nicole Jule</strong>, both assigned to use <code>HR-0002-win</code>.</li>
+    <li>Created a logical OU structure in ADUC for users, departments, and devices (simulating HR department).</li>
+  </ul>
 
-**Things To Do:**
-- Set up **hMailServer** to handle internal email for AD users.
-- Connect email clients (Outlook, Thunderbird) to test internal mail flow.
-- Begin simulating corporate communication workflows between users.
-- Explore AD group and OU usage for dynamic management of users and devices.
+  <strong>Things To Do:</strong>
+  <ul>
+    <li>Set up <strong>hMailServer</strong> to handle internal email for AD users.</li>
+    <li>Connect email clients (Outlook, Thunderbird) to test internal mail flow.</li>
+    <li>Begin simulating corporate communication workflows between users.</li>
+    <li>Explore AD group and OU usage for dynamic management of users and devices.</li>
+  </ul>
 
-**My Commentary:**
-- None. Straightforward actions and I am satisfied with progress.
+  <strong>My Commentary:</strong>
+  <blockquote>- None. Straightforward actions and I am satisfied with progress.</blockquote>
 
 </details>
 
-<br>
-<br>
+<br><br>
 
 <details>
-  
   <summary><h1>[ Jul. 14, 2025 ]</h1></summary>
+  <br>
 
-## 📅 July 14 – Mail Server, Shared Mailboxes, and SIEM Planning
+  <h3>📅 July 14 – Mail Server, Shared Mailboxes, and SIEM Planning</h3>
 
-**Things Done:**
-- Successfully configured **hMailServer** on Windows Server.
-- Installed and configured **Thunderbird** for mailbox access via IMAP.
-- Created a shared **HR mailbox** and a `noreply@strange.local` account.
-- Added an auto-delete rule for the noreply inbox and configured a reply message (for announcement handling).
-- Built an internal distribution list manually in hMail (`users@strange.local`).
-- Began planning SIEM deployment using **Wazuh** for log collection and monitoring.
-- Downloaded Docker — attempted using WSL as backend; encountered "WSL version too old" error.
-- Troubleshot WSL on `win-server` (unsuccessfully). May require Docker reinstall.
+  <strong>Things Done:</strong>
+  <ul>
+    <li>Successfully configured <strong>hMailServer</strong> on Windows Server.</li>
+    <li>Installed and configured <strong>Thunderbird</strong> for mailbox access via IMAP.</li>
+    <li>Created a shared <strong>HR mailbox</strong> and a <code>noreply@strange.local</code> account.</li>
+    <li>Added an auto-delete rule for the noreply inbox and configured a reply message (for announcement handling).</li>
+    <li>Built an internal distribution list manually in hMail (<code>users@strange.local</code>).</li>
+    <li>Began planning SIEM deployment using <strong>Wazuh</strong> for log collection and monitoring.</li>
+    <li>Downloaded Docker — attempted using WSL as backend; encountered "WSL version too old" error.</li>
+    <li>Troubleshot WSL on <code>win-server</code> (unsuccessfully). May require Docker reinstall.</li>
+  </ul>
 
-**Things To Do:**
-- Improve the noreply rule to prevent replies from bypassing deletion.
-- Automate distribution list updates by syncing with an AD group or OU.
-- Configure Thunderbird for multiple mailbox access for HR users (shared inbox).
-- Begin Wazuh deployment using Docker on `win-server` (if feasible).
-- Tune SIEM agents to monitor events on the domain controller, workstation, and Kali VM.  
+  <strong>Things To Do:</strong>
+  <ul>
+    <li>Improve the noreply rule to prevent replies from bypassing deletion.</li>
+    <li>Automate distribution list updates by syncing with an AD group or OU.</li>
+    <li>Configure Thunderbird for multiple mailbox access for HR users (shared inbox).</li>
+    <li>Begin Wazuh deployment using Docker on <code>win-server</code> (if feasible).</li>
+    <li>Tune SIEM agents to monitor events on the domain controller, workstation, and Kali VM.</li>
+  </ul>
 
-**My Commentary:**
-- Trying to troubleshoot the windows server was a nightmare, unsure what the issue is but I may need to find a different solution.
-- There are plenty of other emails/groups I made so the experience feels more immersive to me... lol.
-- I will be shifting to implementing security controls as I am sure I can get lost in the granular changes to Thunderbird or hMailServer's feel.
-- I can revisit the organization later - I want to see what security configuration best practices come first, then structure around those.
- 
+  <strong>My Commentary:</strong>
+  <blockquote>
+    - Trying to troubleshoot the windows server was a nightmare, unsure what the issue is but I may need to find a different solution.<br>
+    - There are plenty of other emails/groups I made so the experience feels more immersive to me... lol.<br>
+    - I will be shifting to implementing security controls as I am sure I can get lost in the granular changes to Thunderbird or hMailServer's feel.<br>
+    - I can revisit the organization later — I want to see what security configuration best practices come first, then structure around those.
+  </blockquote>
+
 </details>
 
-<br>
-<br>
+<br><br>
 
 <details>
-  
   <summary><h1>[ Jul. 18, 2025 ]</h1></summary>
+  <br>
 
-## 📅 July 18 – Mac Setup & Network Connection
+  <h3>📅 July 18 – Mac Setup & Network Connection</h3>
 
-**Things Done:**
-- Failed many times at workarounds to get Wazuh on the windows server VM.
-- Decided to instead get Wazuh working on a seperate device on my network (my Mac).
-- Installed **VirtualBox** on the Mac and downloaded the **Wazuh OVA** for deployment (due to Docker not being supported).
-- Successfully started Wazuh.
+  <strong>Things Done:</strong>
+  <ul>
+    <li>Failed many times at workarounds to get Wazuh on the Windows Server VM.</li>
+    <li>Decided to instead get Wazuh working on a separate device on my network (my Mac).</li>
+    <li>Installed <strong>VirtualBox</strong> on the Mac and downloaded the <strong>Wazuh OVA</strong> for deployment (due to Docker not being supported).</li>
+    <li>Successfully started Wazuh.</li>
+  </ul>
 
-**Things To Do:**
-- Need to go through first setup of Wazuh as well as installing an agent on the host machine.
-- Figure out network segmentation or VPN solution to make things make sense for network architecture.
-- Try to understand/align with production settings even if on a small scale (multiple DC's, best practices for policies/OU's, etc.)
+  <strong>Things To Do:</strong>
+  <ul>
+    <li>Go through first setup of Wazuh as well as installing an agent on the host machine.</li>
+    <li>Figure out network segmentation or VPN solution to make sense of the network architecture.</li>
+    <li>Align with production settings even if on a small scale (multiple DCs, best practices for policies/OUs, etc.).</li>
+  </ul>
 
-**My Commentary:**
-- Wasted a ton of time trying to get Wazuh working on win-server just for the lab space.
-- I want to get things stable first and actually stop at a viable AD environment that makes sense resembling a production environment.
-- Once this is set, then I can introduce more security controls and maybe even run some simulations.
- 
+  <strong>My Commentary:</strong>
+  <blockquote>
+    - Wasted a ton of time trying to get Wazuh working on <code>win-server</code> just for the lab space.<br>
+    - I want to get things stable first and actually stop at a viable AD environment that makes sense resembling a production environment.<br>
+    - Once this is set, then I can introduce more security controls and maybe even run some simulations.
+  </blockquote>
+
 </details>
