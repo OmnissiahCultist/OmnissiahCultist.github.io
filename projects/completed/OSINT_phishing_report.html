@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>OSINT Phishing Investigation | OmnissiahCultist</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+  <div class="container py-5">
+
+    <h1 class="text-center">🕵️ OSINT Phishing Investigation: Case Study Report</h1>
+    <hr>
+
+    <h2>Foreword</h2>
+    <p>
+      All names/contacts were replaced for privacy concerns, and pictures of any methods are not provided for the same reasons. This is not a highly technical investigation; it was more of a personal exercise in practicing OSINT with an actual application and relevance to a real-world scenario (not just a home lab or experimentation with tools).
+    </p>
+
+    <hr>
+
+    <h2>Brief</h2>
+    <p>
+      An employee, John Doe, was solicited on WhatsApp by someone impersonating the CEO of CompanyX, Mark Smith. The conversation progressed into a request for John Doe to speak with a company-unaffiliated lawyer, Edward Lam, and keep the conversation confidential. The employee became suspicious and escalated the matter to management for verification. The incident was subsequently reported in an email chain with attached pictures and references to the conversation.
+    </p>
+
+    <hr>
+
+    <h2>Social Engineering Method</h2>
+    <ul>
+      <li><strong>Spear Phishing</strong></li>
+      <li>Target-specific WhatsApp solicitation (direct message) to John Doe’s number, posing as the CEO of CompanyX.</li>
+      <li>Threat actor prolonged the chat with dynamic responses and a consistent tone.</li>
+      <li>Impersonated "Mark Smith" (used profile picture and a wrong number).</li>
+      <li>Scripted speech: Claimed a new acquisition was being worked on and requested John Doe’s assistance with strict confidentiality.</li>
+      <li>Attempted to have John Doe arrange a financial payment to a source after speaking with an individual (posing as a real lawyer named Edward Lam).</li>
+    </ul>
+
+    <hr>
+
+    <h2>Conversation Timeline</h2>
+    <ol>
+      <li><strong>Initial Contact:</strong> The attacker messaged John Doe on WhatsApp, claiming to be Mark Smith. The attacker immediately began making a request for John Doe's involvement in a fake financial move for CompanyX.</li>
+      <li><strong>Engagement:</strong> The conversation included discussions about a supposed acquisition. The attacker encouraged John Doe to keep the information confidential.</li>
+      <li><strong>Escalation:</strong> The attacker requested John Doe speak to a lawyer named Edward Lam to finalize financial arrangements.</li>
+      <li><strong>Suspicion:</strong> John Doe found the conversation suspicious and escalated it to management.</li>
+    </ol>
+
+    <hr>
+
+    <h2>Tactics Observed</h2>
+    <ul>
+      <li>Multiple high-level CompanyX employees targeted separately (as referenced by higher management).</li>
+      <li>Personalized and direct approach to increase trust.</li>
+      <li>Intelligence gathering to scope out individuals.</li>
+      <li>Use of buffer contacts to obscure the attacker’s identity.</li>
+      <li>Deliberate selection of targets aligned with acquisition/merger goals.</li>
+    </ul>
+
+    <hr>
+
+    <h2>Possible Inspiration</h2>
+    <ul>
+      <li>CompanyX’s public acquisition history.</li>
+      <li>Legal FirmY’s blogs and articles discussing CompanyX (the only connection found between FirmY and CompanyX).</li>
+      <li>Shared breach information from previous data leaks.</li>
+      <li>The roles of John Doe and Jane Lam made them realistic candidates for involvement in mergers.</li>
+    </ul>
+
+    <hr>
+
+    <h2>Names and Roles</h2>
+    <ul>
+      <li><strong>Mark Smith (Impersonator):</strong> CEO who was impersonated. Public information available, high profile.</li>
+      <li><strong>John Doe (Victim):</strong> Manager for a specific regional business with financial oversight. The attacker had access to his WhatsApp number. Email compromised: johndoe@companyx.com.</li>
+      <li><strong>Martha Carter (Unaffiliated):</strong> The number used for Mark Smith belonged to this individual during background searching. Likely randomly selected from leaked data. No relevance to the case. Email compromised: marthacarter@juno.com, mcarter@sbcglobal.net.</li>
+      <li><strong>Edward Lam (Unaffiliated, Likely Used as a Disguise):</strong> Lawyer at Legal FirmY. Specializes in mergers and acquisitions. No known connection to CompanyX. Email publicly available: edward.lam@firmy.com.</li>
+    </ul>
+
+    <hr>
+
+    <h2>Companies</h2>
+    <ul>
+      <li><strong>CompanyX:</strong> Targeted organization.</li>
+      <li><strong>Legal FirmY:</strong> Referenced law organization in the conversation.</li>
+      <li><strong>Unnamed Fake Company:</strong> Alleged acquisition target, only referenced in the conversation.</li>
+    </ul>
+
+    <hr>
+
+    <h2>Evidence and Findings</h2>
+    <p>
+      Sources included people search sites, Google queries, and relevant articles. <a href="https://haveibeenpwned.com/" target="_blank">Have I Been Pwned</a> was used to check for possible email compromises.
+    </p>
+    <p>John Doe, Edward Lam, and Martha Carter all had their emails compromised in the following breaches:</p>
+    <ul>
+      <li><strong>2019 (Feb):</strong> Verifications.io breach</li>
+      <li><strong>2019 (Oct):</strong> Data Enrichment Exposure from PDL Customer</li>
+      <li><strong>2021:</strong> LinkedIn Scraped Data</li>
+    </ul>
+
+    <hr>
+
+    <h2>Conclusion</h2>
+    <p>
+      The threat actors likely accessed leaked data to identify and target CompanyX. While the exact motivation remains unclear, the attackers demonstrated a working knowledge of CompanyX’s acquisition history and key personnel. Their tactics suggest deliberate use of public information and compromised credentials to craft a believable phishing attack. This case highlights the importance of safeguarding personal information and regularly monitoring data breach exposure. Organizations should maintain strong awareness of their public footprint and conduct tabletop exercises to strengthen resilience.
+    </p>
+
+    <hr>
+
+    <h2>Potential Next Steps for Further Investigation</h2>
+    <ol>
+      <li>Analyze the attacker’s language and style for possible attribution, including links to known Advanced Persistent Threat (APT) groups.</li>
+      <li>Investigate additional breaches involving CompanyX employees to gather comprehensive intelligence.</li>
+      <li>Provide spear-phishing awareness training for employees, supplemented with practical exercises and case studies.</li>
+    </ol>
+
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
