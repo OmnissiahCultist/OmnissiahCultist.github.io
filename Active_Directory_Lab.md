@@ -1,3 +1,15 @@
+> 🚧 **Work in Progress** 🚧  
+> This project page is actively being updated as I build out my lab environment and document my experience.  
+> I plan on adding these too in future updates:
+> 
+> - Network diagrams showing the associated devices and configurations.
+> - Screenshots from Active Directory to provide context and visual references.
+> - Integration of images in a way that enhances readability and flow.
+> - A comprehensive deep dive section — either as a final overview or integrated with each daily log — to better capture my deployment process and key takeaways.
+
+<br>
+<br>
+
 <details>
   
   <summary><h1>[ Initial Hopes and Dreams ]</h1></summary>
