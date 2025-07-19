@@ -15,7 +15,19 @@
   
   <summary><h1>[ Jul. 11, 2025 ]</h1></summary>
 
-  Work in progress...
+  ## 📅 July 11 – Initial Environment Setup
+
+**Things Done:**
+- Created the initial Windows Server VM and Kali Linux VM.
+- Established network communication between the two VMs.
+- Installed Active Directory Domain Services (AD DS) and promoted Windows Server to a domain controller.
+- Confirmed DHCP allocation working via libvirt virtual network (NAT mode).
+- Configured DNS and network settings to allow basic connectivity across VMs.
+
+**Things To Do:**
+- Verify DNS and name resolution from Kali to Windows Server.
+- Begin Active Directory Domain Services (AD DS) setup.
+- Decide on naming conventions for domains, users, and devices before scaling.
  
 </details>
 
