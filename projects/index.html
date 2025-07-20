@@ -4,78 +4,152 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Projects | OmnissiahCultist</title>
+
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
   <link href="/assets/css/custom.css" rel="stylesheet">
+
+  <style>
+    body.projects-page {
+      background-image: url('/assets/images/ChatGPT_space.png');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      color: #fff;
+      font-family: 'Courier New', Courier, monospace;
+    }
+
+    .projects-header {
+      text-align: center;
+      color: red;
+      margin-top: 40px;
+    }
+
+    .projects-header h1 {
+      font-weight: bold;
+      text-shadow: 2px 2px 4px #000;
+    }
+
+    .projects-header p {
+      margin: 0;
+      font-size: 1rem;
+    }
+
+    .jam-image {
+      display: block;
+      margin: 40px auto;
+      max-width: 300px;
+    }
+
+    .planet-grid {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 40px;
+      margin-bottom: 50px;
+    }
+
+    .planet-icon {
+      text-align: center;
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    .planet-icon img {
+      width: 100px;
+      transition: transform 0.3s;
+    }
+
+    .planet-icon:hover {
+      transform: scale(1.1);
+      box-shadow: 0 0 15px red;
+    }
+
+    .planet-icon p {
+      margin-top: 10px;
+      color: red;
+      font-weight: bold;
+      text-shadow: 1px 1px 2px #000;
+    }
+  </style>
 </head>
-<body>
-  
-<nav class="navbar navbar-expand-lg navbar-dark">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="/index.html">OmnissiahCultist</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav">
-        <li class="nav-item"><a class="nav-link" href="/projects/index.html">Projects</a></li>
-        <li class="nav-item"><a class="nav-link" href="/resources/index.html">Resources</a></li>
-        <li class="nav-item"><a class="nav-link" href="https://linktr.ee/OmnissiahCultist" target="_blank">My Links</a></li>
-      </ul>
+
+<body class="projects-page">
+
+  <!-- ===== NAVIGATION ===== -->
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="/index.html">OmnissiahCultist</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link" href="/projects/index.html">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="/resources/index.html">Resources</a></li>
+          <li class="nav-item"><a class="nav-link" href="https://linktr.ee/OmnissiahCultist" target="_blank">My Links</a></li>
+        </ul>
+      </div>
     </div>
-  </div>
-</nav>
+  </nav>
 
- 
-  <div class="container py-5">
-
-    <h1 class="text-center">🛠️ Projects</h1>
-
-    <p class="lead text-center">
-      Explore categorized project sections — from concepts to completed work.
-    </p>
-
-    <hr>
-
-    <h2>💡 <a href="./ideas/index.html">Ideas</a></h2>
-    <p>Projects and concepts I plan to build or research in the future.</p>
-
-    <hr>
-
-    <h2>🚧 <a href="./working/index.html">Working</a></h2>
-    <p>Active projects currently in development or refinement.</p>
-
-    <hr>
-
-    <h2>✅ <a href="./completed/index.html">Completed</a></h2>
-    <p>Personal projects I have completed or am satisfied with.</p>
-
-    <hr>
-
-    <h2>🗃️ <a href="./archived/index.html">Archived</a></h2>
-    <p>Inactive or shelved projects I’ve preserved for reference and reflection.</p>
-
+  <!-- ===== PROJECTS HEADER ===== -->
+  <div class="projects-header">
+    <h1>🛠️ Projects</h1>
+    <p>💡 Ideas — Projects and concepts I plan to build or research.</p>
+    <p>🚧 Working — Active projects in development or refinement.</p>
+    <p>✅ Completed — Projects I’ve finished or am satisfied with.</p>
+    <p>🗃️ Archived — Inactive or shelved projects kept for reflection.</p>
   </div>
 
+  <!-- ===== CENTER JAM IMAGE ===== -->
+  <img src="/assets/images/ChatGPT_jam.png" alt="Jam Centerpiece" class="jam-image">
+
+  <!-- ===== PLANET GRID ===== -->
+  <div class="planet-grid">
+
+    <a href="./ideas/index.html" class="planet-icon">
+      <img src="/assets/images/ChatGPT_saturn.png" alt="Ideas Planet">
+      <p>💡 Ideas</p>
+    </a>
+
+    <a href="./working/index.html" class="planet-icon">
+      <img src="/assets/images/ChatGPT_earth.png" alt="Working Planet">
+      <p>🚧 Working</p>
+    </a>
+
+    <a href="./completed/index.html" class="planet-icon">
+      <img src="/assets/images/ChatGPT_jupiter.png" alt="Completed Planet">
+      <p>✅ Completed</p>
+    </a>
+
+    <a href="./archived/index.html" class="planet-icon">
+      <img src="/assets/images/ChatGPT_mars.png" alt="Archived Planet">
+      <p>🗃️ Archived</p>
+    </a>
+
+  </div>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="bg-dark text-center text-white py-4 mt-5">
+    <div class="container">
+      <h3>🚀 Still a little AI sloppy, but it's coming together! 🚀</h3>
+
+      <div class="mt-3">
+        <a href="https://linktr.ee/OmnissiahCultist" class="btn btn-primary" target="_blank">🔗 Visit My Links</a>
+      </div>
+
+      <hr class="bg-secondary my-4" />
+      <p class="mb-0 small">© 2025 Zachary Strange. Pretty sure most rights reserved.</p>
+      <p class="mb-0 small">Built with <a href="https://getbootstrap.com/" class="text-white" target="_blank">Bootstrap</a> | Powered by <a href="https://pages.github.com/" class="text-white" target="_blank">GitHub Pages</a></p>
+      <p class="mb-0 small">Inspired by Space Jam (1996 Website) — Images Generated with AI.</p>
+
+      <div class="mt-2">
+        <a href="#" class="text-decoration-none text-white">⬆️ Back to Top ⬆️</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ===== JS ===== -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-  
-<footer class="bg-dark text-center text-white py-4 mt-5">
-  <div class="container">
-    <h3>🚀 Still a little AI sloppy, but it's coming together! 🚀</h3>
-
-    <div class="mt-3">
-      <a href="https://linktr.ee/OmnissiahCultist" class="btn btn-primary" target="_blank">🔗 Visit My Links</a>
-    </div>
-
-    <hr class="bg-secondary my-4">
-
-    <p class="mb-0 small">© 2025 Zachary Strange. Pretty sure most rights reserved.</p>
-    <p class="mb-0 small">Built with <a href="https://getbootstrap.com/" class="text-white" target="_blank">Bootstrap</a> | Powered by <a href="https://pages.github.com/" class="text-white" target="_blank">GitHub Pages</a></p>
-
-    <div class="mt-2">
-      <a href="#" class="text-decoration-none text-white">⬆️ Back to Top ⬆️</a>
-  </div>
-</footer>
-
 
 </body>
 </html>
