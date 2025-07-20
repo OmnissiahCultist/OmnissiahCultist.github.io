@@ -8,68 +8,65 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
   <link href="/assets/css/custom.css" rel="stylesheet">
 
+  <!-- ===== STYLES FOR PLANET & ORBIT ===== -->
   <style>
-    body.projects-page {
-      background-image: url('/assets/images/ChatGPT_space.png');
-      background-size: cover;
-      background-repeat: no-repeat;
-      background-position: center;
-      color: #fff;
-      font-family: 'Courier New', Courier, monospace;
+    .projects-orbit-container {
+      position: relative;
+      width: 600px;
+      height: 600px;
+      margin: 0 auto;
     }
 
-    .projects-header {
-      text-align: center;
-      color: red;
-      margin-top: 40px;
+    .jam-centerpiece {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      max-width: 200px;
     }
 
-    .projects-header h1 {
-      font-weight: bold;
-      text-shadow: 2px 2px 4px #000;
-    }
-
-    .projects-header p {
-      margin: 0;
-      font-size: 1rem;
-    }
-
-    .jam-image {
-      display: block;
-      margin: 40px auto;
-      max-width: 300px;
-    }
-
-    .planet-grid {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      gap: 40px;
-      margin-bottom: 50px;
-    }
-
-    .planet-icon {
+    .orbit-planet {
+      position: absolute;
+      width: 80px;
       text-align: center;
       transition: transform 0.3s, box-shadow 0.3s;
     }
 
-    .planet-icon img {
-      width: 100px;
-      transition: transform 0.3s;
+    .orbit-planet img {
+      width: 80px;
     }
 
-    .planet-icon:hover {
+    .orbit-planet:hover {
       transform: scale(1.1);
-      box-shadow: 0 0 15px red;
+      box-shadow: 0 0 15px yellow;
     }
 
-    .planet-icon p {
-      margin-top: 10px;
-      color: red;
+    .orbit-planet p {
+      margin-top: 5px;
+      font-family: 'Comic Sans MS', cursive, sans-serif;
       font-weight: bold;
+      text-transform: uppercase;
+      color: yellow;
       text-shadow: 1px 1px 2px #000;
+      font-size: 0.9rem;
+    }
+
+    /* Positioning planets in X pattern */
+    .planet-top-left { top: 0; left: 0; }
+    .planet-top-right { top: 0; right: 0; }
+    .planet-bottom-left { bottom: 0; left: 0; }
+    .planet-bottom-right { bottom: 0; right: 0; }
+
+    /* Project Key floated to right */
+    .project-key {
+      max-width: 300px;
+      color: red;
+      font-family: 'Courier New', Courier, monospace;
+      margin: 40px auto 0 auto;
+      text-shadow: 2px 2px 4px #000;
     }
   </style>
+
 </head>
 
 <body class="projects-page">
@@ -91,42 +88,43 @@
     </div>
   </nav>
 
-  <!-- ===== PROJECTS HEADER ===== -->
-  <div class="projects-header">
-    <h1>🛠️ Projects</h1>
-    <p>💡 Ideas — Projects and concepts I plan to build or research.</p>
-    <p>🚧 Working — Active projects in development or refinement.</p>
-    <p>✅ Completed — Projects I’ve finished or am satisfied with.</p>
-    <p>🗃️ Archived — Inactive or shelved projects kept for reflection.</p>
-  </div>
+<!-- ===== PLANETS AND KEY GRID ===== -->
+  <div class="container text-center mt-5">
+  <div class="projects-orbit-container">
 
-  <!-- ===== CENTER JAM IMAGE ===== -->
-  <img src="/assets/images/ChatGPT_jam.png" alt="Jam Centerpiece" class="jam-image">
+    <img src="/assets/images/ChatGPT_jam.png" alt="Jam Centerpiece" class="jam-centerpiece">
 
-  <!-- ===== PLANET GRID ===== -->
-  <div class="planet-grid">
-
-    <a href="./ideas/index.html" class="planet-icon">
+    <a href="./ideas/index.html" class="orbit-planet planet-top-left">
       <img src="/assets/images/ChatGPT_saturn.png" alt="Ideas Planet">
-      <p>💡 Ideas</p>
+      <p>IDEAS</p>
     </a>
 
-    <a href="./working/index.html" class="planet-icon">
+    <a href="./working/index.html" class="orbit-planet planet-top-right">
       <img src="/assets/images/ChatGPT_earth.png" alt="Working Planet">
-      <p>🚧 Working</p>
+      <p>WORKING</p>
     </a>
 
-    <a href="./completed/index.html" class="planet-icon">
+    <a href="./completed/index.html" class="orbit-planet planet-bottom-left">
       <img src="/assets/images/ChatGPT_jupiter.png" alt="Completed Planet">
-      <p>✅ Completed</p>
+      <p>COMPLETED</p>
     </a>
 
-    <a href="./archived/index.html" class="planet-icon">
+    <a href="./archived/index.html" class="orbit-planet planet-bottom-right">
       <img src="/assets/images/ChatGPT_mars.png" alt="Archived Planet">
-      <p>🗃️ Archived</p>
+      <p>ARCHIVED</p>
     </a>
 
   </div>
+
+  <div class="project-key">
+    <h1>🛠️ PROJECTS</h1>
+    <p>IDEAS — Projects and concepts I plan to build or research.</p>
+    <p>WORKING — Active projects in development or refinement.</p>
+    <p>COMPLETED — Projects I’ve finished or am satisfied with.</p>
+    <p>ARCHIVED — Inactive or shelved projects kept for reflection.</p>
+  </div>
+</div>
+
 
   <!-- ===== FOOTER ===== -->
   <footer class="bg-dark text-center text-white py-4 mt-5">
