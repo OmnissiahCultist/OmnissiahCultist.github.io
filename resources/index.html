@@ -67,15 +67,17 @@
 
     .popup-wrapper button {
       position: absolute;
-      bottom: 90px; /* Moved up by 40px from original 50px */
-      left: 0;
+      bottom: 95px;  /* Moved up by 5px from 90px */
+      left: 5px;     /* Nudged left by 5px */
       right: 0;
       margin: auto;
       width: 25%;
-      padding: 4px 12px;
+      padding: 6px 12px;  /* Increased padding for better click zone */
       font-size: 0.8rem;
+      display: block;     /* Makes the entire button area clickable */
       z-index: 2;
     }
+    
   </style>
 </head>
 
