@@ -69,12 +69,15 @@
       position: absolute;
       bottom: 96px;  /* Moved up 2px from 95px */
       left: 50%;     /* Center horizontally */
-      transform: translate(-65%, 0); /* Adjust 5% left */
-      width: 25%;
+      transform: translate(-70%, 0); /* Adjust 5% left */
+      width: 23%;
       padding: 8px 12px;
       font-size: 0.8rem;
       display: inline-block;
       z-index: 2;
+      border: none;
+      background-color: transparent;
+
     }
 
   </style>
@@ -103,7 +106,7 @@
   <div class="container py-5 d-flex justify-content-center align-items-center flex-column">
     <div class="popup-wrapper">
       <img src="/assets/images/ChatGPT_popup.png" alt="Popup Box" class="img-fluid" />
-      <button id="errorSoundButton" class="btn btn-outline-light">🔊</button>
+      <button id="errorSoundButton" class="btn btn-outline-light"></button>
     </div>
 
     <!-- Sound Entity -->
