@@ -57,11 +57,12 @@
 
     .popup-wrapper button {
       position: absolute;
-      bottom: 12px;
+      bottom: 50px;
       right: 16px;
-      padding: 6px 12px;
-      font-size: 0.9rem;
+      padding: 4px 12px;
+      font-size: 0.8rem;
       z-index: 2;
+      transform: scaleX(0.5);
     }
   </style>
 </head>
@@ -84,29 +85,10 @@
     </div>
   </nav>
 
-  <div class="container py-5 text-center">
-    <style>
-  .popup-wrapper {
-    position: relative;
-    display: inline-block;
-    max-width: 500px;
-  }
-
-  .popup-wrapper button {
-    position: absolute;
-    bottom: 50px; /* Moved up from the previous 12px */
-    right: 16px;
-    padding: 4px 12px; /* Reduced padding for smaller height */
-    font-size: 0.8rem;
-    z-index: 2;
-  }
-</style>
-
-<div class="popup-wrapper">
-  <img src="/assets/images/ChatGPT_popup.png" alt="Popup Box" class="img-fluid" />
-    <button id="errorSoundButton" class="btn btn-outline-light">
-      🔊 Play Error Sound
-    </button>
+  <div class="container py-5 d-flex justify-content-center align-items-center flex-column">
+    <div class="popup-wrapper">
+      <img src="/assets/images/ChatGPT_popup.png" alt="Popup Box" class="img-fluid" />
+      <button id="errorSoundButton" class="btn btn-outline-light">🔊</button>
     </div>
 
     <audio id="errorSound" src="/assets/sounds/winerror-deeplayerking(Freesound).mp3"></audio>
@@ -116,7 +98,6 @@
         document.getElementById('errorSound').play();
       });
     </script>
-
 
     <div class="desktop-area mt-5">
       <a href="./tools/index.html" class="desktop-icon">
