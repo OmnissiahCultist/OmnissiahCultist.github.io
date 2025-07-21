@@ -65,13 +65,18 @@
     }
 
     /* ===== BACKGROUND IMAGE STYLES ===== */
-    body.landing-background {
-      background-image: url('/assets/images/ChatGPT_vapor.png');
-      background-size: contain;
-      background-repeat: no-repeat;
-      background-position: center top;
-      background-color: #000;     /* Fallback background */
-    }
+body.landing-background {
+  background-image: url('/assets/images/ChatGPT_vapor.png');
+  background-size: cover;         /* Stretches to fill viewport width */
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-color: #000;         /* Fallback background */
+  margin: 0;                      /* Remove body default margin */
+  width: 100vw;                   /* Ensure viewport width */
+  height: 100vh;                  /* Ensure viewport height if you want full screen */
+  overflow-x: hidden;             /* Prevent horizontal scroll */
+}
+
 
     /* ===== FOOTER STYLES ===== */
     footer {
