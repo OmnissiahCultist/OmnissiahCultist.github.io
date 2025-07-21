@@ -6,7 +6,6 @@
   <title>OmnissiahCultist's Cybersecurity Portfolio</title>
 
   <!-- Bootstrap CSS -->
-  <!-- Bootstrap CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 
   <!-- Custom CSS -->
@@ -14,50 +13,52 @@
 
   <style>
     /* ===== NAVBAR STYLES ===== */
-    .navbar-custom {
-      background-color: black;
-      font-family: Tahoma, sans-serif;
-      border: 2px solid limegreen;
-      box-shadow: 0 0 10px limegreen;
-      justify-content: center;
+  .navbar-custom {
+    background-color: black;
+    font-family: Tahoma, sans-serif;
+    border: 2px solid red;
+    box-shadow: 0 0 10px red;
+    justify-content: center;
     }
 
-    .navbar-custom .nav-link {
-      color: limegreen;
-      margin: 0 15px;
-      position: relative;
-      transition: color 0.3s;
-    }
+  .navbar-custom .nav-link {
+    color: red;
+    margin: 0 15px;
+    position: relative;
+    transition: color 0.3s;
+  }
 
-    .navbar-custom .nav-link::after {
-      content: "";
-      position: absolute;
-      width: 0%;
-      height: 2px;
-      bottom: -5px;
-      left: 0;
-      background-color: limegreen;
-      transition: width 0.3s;
-    }
+  .navbar-custom .nav-link::after {
+    content: "";
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    bottom: -5px;
+    left: 0;
+    background-color: red;
+    transition: width 0.3s;
+  }
 
-    .navbar-custom .nav-link:hover {
-      color: #00ff00;
-      text-shadow: 0 0 5px limegreen;
-    }
+  .navbar-custom .nav-link:hover {
+    color: red;
+    text-shadow: 0 0 5px red;
+    animation: glitch 0.5s infinite;
+  }
 
-    .navbar-custom .nav-link:hover::after {
-      width: 100%;
-    }
+  .navbar-custom .nav-link:hover::after {
+    width: 100%;
+  }
 
-    /* ===== GLITCH HOVER EFFECT ===== */
-    @keyframes glitch {
-      0% { text-shadow: 2px 0 lime, -2px 0 magenta; }
-      20% { text-shadow: -2px 0 lime, 2px 0 magenta; }
-      40% { text-shadow: 2px 0 lime, -2px 0 magenta; }
-      60% { text-shadow: -2px 0 lime, 2px 0 magenta; }
-      80% { text-shadow: 2px 0 lime, -2px 0 magenta; }
-      100% { text-shadow: none; }
-    }
+  /* ===== GLITCH HOVER EFFECT ===== */
+  @keyframes glitch {
+    0% { text-shadow: 2px 0 red, -2px 0 red; }
+    20% { text-shadow: -2px 0 red, 2px 0 red; }
+    40% { text-shadow: 2px 0 red, -2px 0 red; }
+    60% { text-shadow: -2px 0 red, 2px 0 red; }
+    80% { text-shadow: 2px 0 red, -2px 0 red; }
+    100% { text-shadow: none; }
+  }
+
 
     .navbar-custom .nav-link:hover {
       animation: glitch 0.3s;
@@ -66,10 +67,11 @@
     /* ===== BACKGROUND IMAGE STYLES ===== */
     .landing-background {
       background-image: url('/assets/images/ChatGPT_vapor.png');
-      background-size: cover;
+      background-size: contain;   /* Show entire image without cropping */
       background-repeat: no-repeat;
-      background-position: center;
-      height: 90vh; /* Adjust for visual fit with navbar/footer */
+      background-position: center top;
+      background-color: #000;     /* Fallback background */
+      min-height: 100vh;          /* Ensure it fills full viewport */
     }
 
     /* ===== FOOTER STYLES ===== */
