@@ -7,7 +7,6 @@
 
   <!-- Bootstrap CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
-  <!-- Custom CSS -->
   <link href="/assets/css/custom.css" rel="stylesheet" />
 
   <!-- ===== STYLES FOR PLANET & ORBIT ===== -->
@@ -40,7 +39,7 @@
       width: 80px;
       text-align: center;
       transition: transform 0.3s, box-shadow 0.3s;
-      text-decoration: none; /* Remove underline */
+      text-decoration: none;
     }
 
     .orbit-planet img {
@@ -60,10 +59,8 @@
       color: yellow;
       text-shadow: 2px 2px 4px #000;
       font-size: 1.25rem;
-      text-decoration: none; /* Remove underline */
     }
 
-    /* Positioning planets closer by reducing distance by 25% */
     .planet-top-left {
       top: 15%;
       left: 15%;
@@ -92,12 +89,11 @@
       text-shadow: 2px 2px 4px #000;
     }
   </style>
-
 </head>
 
 <body class="projects-page">
 
-  <!-- ===== NAVIGATION ===== -->
+  <!-- ===== NAVBAR ===== -->
   <nav class="navbar navbar-expand-lg navbar-dark">
     <div class="container-fluid">
       <a class="navbar-brand" href="/index.html">OmnissiahCultist</a>
@@ -114,47 +110,44 @@
     </div>
   </nav>
 
-  <!-- ===== PLANETS & PROJECT KEY ===== -->
+  <!-- ===== PLANETS ORBITING CENTERPIECE ===== -->
   <div class="container text-center mt-5">
     <div class="projects-orbit-container">
-      <img src="/assets/images/ChatGPT_jam.png" alt="Jam Centerpiece" class="jam-centerpiece">
+      <img src="/assets/images/ChatGPT_jam.png" alt="Space Jam Planet Centerpiece" class="jam-centerpiece" />
 
       <a href="./ideas/index.html" class="orbit-planet planet-top-left">
-        <img src="/assets/images/ChatGPT_saturn.png" alt="Ideas Planet">
+        <img src="/assets/images/ChatGPT_saturn.png" alt="Ideas Planet Icon" />
         <p>IDEAS</p>
       </a>
 
       <a href="./working/index.html" class="orbit-planet planet-top-right">
-        <img src="/assets/images/ChatGPT_earth.png" alt="Working Planet">
+        <img src="/assets/images/ChatGPT_earth.png" alt="Working Projects Planet Icon" />
         <p>WORKING</p>
       </a>
 
       <a href="./completed/index.html" class="orbit-planet planet-bottom-left">
-        <img src="/assets/images/ChatGPT_jupiter.png" alt="Completed Planet">
+        <img src="/assets/images/ChatGPT_jupiter.png" alt="Completed Projects Planet Icon" />
         <p>COMPLETED</p>
       </a>
 
       <a href="./archived/index.html" class="orbit-planet planet-bottom-right">
-        <img src="/assets/images/ChatGPT_mars.png" alt="Archived Planet">
+        <img src="/assets/images/ChatGPT_mars.png" alt="Archived Projects Planet Icon" />
         <p>ARCHIVED</p>
       </a>
     </div>
   </div>
 
   <!-- ===== FOOTER ===== -->
-  <footer class="bg-dark text-center text-white py-4 mt-5">
+  <footer class="text-center text-white py-4 mt-5">
     <div class="container">
-      <h3>🚀 Still a little AI sloppy, but it's coming together! 🚀</h3>
-
+      <hr class="bg-secondary my-4">
+      <h2>🚀 Still a little AI sloppy, but it's coming together! 🚀</h2>
       <div class="mt-3">
         <a href="https://linktr.ee/OmnissiahCultist" class="btn btn-primary" target="_blank">🔗 Visit My Links</a>
       </div>
-
-      <hr class="bg-secondary my-4" />
-      <p class="mb-0 small">© 2025 Zachary Strange. Pretty sure most rights reserved.</p>
+      <hr class="bg-secondary my-4">
+      <p class="mb-0 small">© 2025 Zachary Strange | All vibes reserved.</p>
       <p class="mb-0 small">Built with <a href="https://getbootstrap.com/" class="text-white" target="_blank">Bootstrap</a> | Powered by <a href="https://pages.github.com/" class="text-white" target="_blank">GitHub Pages</a></p>
-      <p class="mb-0 small">Inspired by Space Jam (1996 Website) — Images Generated with AI.</p>
-
       <div class="mt-2">
         <a href="#" class="text-decoration-none text-white">⬆️ Back to Top ⬆️</a>
       </div>
