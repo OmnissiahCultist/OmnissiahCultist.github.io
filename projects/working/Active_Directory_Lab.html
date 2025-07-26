@@ -184,7 +184,82 @@
       </div>
     </details>
 
-  </div>
+  <!-- July 24 -->
+  <details class="mb-4">
+    <summary><h3>[ Jul. 24, 2025 ]</h3></summary>
+    <div class="mt-3">
+      <h4>📦 Wazuh Agent Deployment + AD Labs 1–9 (Antisyphon Course)</h4>
+
+      <strong>Things Done:</strong>
+      <ul>
+        <li>Deployed Wazuh Agent locally on a separate device for monitoring.</li>
+        <li>Completed and modified Labs 1–4 using custom environment:</li>
+        <ul>
+          <li>Lab 1 – Virtual Machine Setup</li>
+          <li>Lab 2 – Installed and configured Domain Controller</li>
+          <li>Lab 3 – Created Organizational Units (OUs), users, and groups</li>
+          <li>Lab 4 – Added client and member server to domain</li>
+        </ul>
+        <li>Lab 5 – Configured permissions and access control:</li>
+        <ul>
+          <li>Created "IT", "IT-Helpdesk" OUs and user "Jim Bob (Helpdesk)"</li>
+          <li>Delegated tasks via HR OU (e.g., password resets, group modification)</li>
+          <li>Installed ADUC on HR-0002-win using PowerShell</li>
+          <li>Commands run:
+            <ul>
+              <li><code>Install-WindowsFeature -name Web-Server -IncludeManagementTools</code></li>
+              <li><code>Get-WindowsFeature | Where-Object {$_.Name -like "RSAT*"} | Install-WindowsFeature</code></li>
+            </ul>
+          </li>
+          <li>Validated login and administrative privileges for Jim</li>
+        </ul>
+        <li>Lab 6 – Setup Group Policies:</li>
+        <ul>
+          <li>Accessed Group Policy Management Console (GPMC)</li>
+          <li>Created GPO: <code>Disable_Control_Panel</code> and applied to <code>HR-ALL</code> group</li>
+          <li>Tested with "Nicole" account – verified Control Panel was inaccessible</li>
+          <li>Configured Account Lockout Policy:
+            <ul>
+              <li>Lockout after 5 failed login attempts</li>
+              <li>Lockout duration: 5 minutes</li>
+              <li>Reset account lockout counter after 1 minute</li>
+            </ul>
+          </li>
+        </ul>
+        <li>Lab 7 – Setup Audit Logging:</li>
+        <ul>
+          <li>Created GPO: <code>Audit_Logging_Clients</code></li>
+          <li>Enabled audit policies except:
+            <ul>
+              <li>Directory Service Access</li>
+              <li>Object Access</li>
+              <li>Privilege Use</li>
+              <li>Global Object Access Audit</li>
+            </ul>
+          </li>
+          <li>Applied to HR-0002-win and Domain Controllers</li>
+          <li>Verified logs through Windows Event Viewer</li>
+        </ul>
+        <li>Lab 8 & 9 – AD Certificate Services (AD CS) & Certificate Templates:</li>
+        <ul>
+          <li>Attempted setup of AD CS and templates</li>
+          <li>Encountered issues – needs troubleshooting</li>
+        </ul>
+      </ul>
+
+      <strong>Things To Do:</strong>
+      <ul>
+        <li>Resolve issues with AD CS installation and configuration.</li>
+        <li>Continue with next labs after certificate templates work.</li>
+        <li>Test Wazuh log collection from client endpoints.</li>
+      </ul>
+
+      <strong>My Commentary:</strong>
+      <blockquote>- </blockquote>
+    </div>
+  </details>
+
+</div>
 
   <!-- Footer -->
   <footer class="bg-dark text-center text-white py-4 mt-5">
