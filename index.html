@@ -74,8 +74,15 @@
     margin: 0;                    
     height: 1024px;
     width: 100vw;
-    overflow-x: hidden;          
+    overflow-x: hidden;
+    min-height: 100vh;  /* Ensures the body is at least the height of the screen */
+    display: flex;
+    flex-direction: column;
   }
+
+  footer {
+    margin-top: auto;  /* Pushes footer to bottom when using flexbox on body */
+  }     
 
     /* ===== FOOTER STYLES ===== */
     footer {
