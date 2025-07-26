@@ -1,42 +1,164 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>About Me | OmnissiahCultist</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>About Me – OmnissiahCultist</title>
 
+  <!-- Google Font: Orbitron -->
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">
+
+  <!-- Bootstrap CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link href="/assets/css/custom.css" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #000;
+      color: red;
+      font-family: 'Orbitron', sans-serif;
+    }
+
+    /* Background wrapper */
+    .background-wrapper {
+      background-image: url('/assets/images/ChatGPT_cyberpunk.png');
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: top center;
+      max-width: 1536px;
+      aspect-ratio: 1536 / 1024;
+      margin: 0 auto;
+      position: relative;
+    }
+
+    /* Content box */
+    .content-box {
+      background-color: rgba(0, 0, 0, 0.75);
+      box-shadow: 0 0 20px red;
+      padding: 30px;
+      margin: 0 auto;
+      width: 90%;
+      max-width: 900px;
+      position: relative;
+      top: 50px;
+      text-align: center;
+    }
+
+    /* Footer styles */
+    footer {
+      background-color: #000;
+      color: red;
+      text-align: center;
+      padding: 30px 10px;
+      font-size: 0.9rem;
+    }
+
+    /* Navigation bar */
+    .navbar-custom {
+      background-color: black;
+      font-family: Tahoma, sans-serif;
+      border: 2px solid red;
+      box-shadow: 0 0 10px red;
+      justify-content: center;
+    }
+
+    .navbar-custom .nav-link {
+      color: red;
+      margin: 0 15px;
+      position: relative;
+      transition: color 0.3s;
+    }
+
+    .navbar-custom .nav-link::after {
+      content: "";
+      position: absolute;
+      width: 0%;
+      height: 2px;
+      bottom: -5px;
+      left: 0;
+      background-color: red;
+      transition: width 0.3s;
+    }
+
+    .navbar-custom .nav-link:hover {
+      color: red;
+      text-shadow: 0 0 5px red;
+      animation: glitch 0.5s infinite;
+    }
+
+    .navbar-custom .nav-link:hover::after {
+      width: 100%;
+    }
+
+    @keyframes glitch {
+      0% { text-shadow: 2px 0 red, -2px 0 red; }
+      20% { text-shadow: -2px 0 red, 2px 0 red; }
+      40% { text-shadow: 2px 0 red, -2px 0 red; }
+      60% { text-shadow: -2px 0 red, 2px 0 red; }
+      80% { text-shadow: 2px 0 red, -2px 0 red; }
+      100% { text-shadow: none; }
+    }
+
+    .credits {
+      margin-top: 30px;
+      font-size: 0.9rem;
+    }
+
+    .credits p {
+      margin: 5px 0;
+    }
+  </style>
 </head>
 
 <body>
 
-<!-- ===== NAVBAR ===== -->
-<nav class="navbar navbar-expand-lg navbar-dark navbar-custom">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="/index.html">OmnissiahCultist</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+  <!-- NAVIGATION BAR -->
+  <nav class="navbar navbar-expand-lg navbar-dark navbar-custom">
+    <div class="container-fluid justify-content-center">
       <ul class="navbar-nav">
+        <li class="nav-item"><a class="nav-link" href="/index.html">Home</a></li>
         <li class="nav-item"><a class="nav-link" href="/projects/index.html">Projects</a></li>
         <li class="nav-item"><a class="nav-link" href="/resources/index.html">Resources</a></li>
-        <li class="nav-item"><a class="nav-link" href="/about.html">About Me</a></li>
+        <li class="nav-item"><a class="nav-link" href="/about.html">About This Site</a></li>
       </ul>
     </div>
+  </nav>
+
+  <!-- BACKGROUND SECTION WITH CONTENT BOX -->
+  <div class="background-wrapper">
+    <div class="content-box">
+      <h1>👋 Welcome</h1>
+      <p>Website under construction — still being vibe developed!</p>
+
+      <h2>About Me</h2>
+      <p>🌐 Aspiring Cybersecurity Professional 🔍:<br>
+      My name is Zach, and I've been working hard to break into the industry.</p>
+
+      <div class="credits">
+        <h4>📜 Page Inspirations</h4>
+        <p><strong>Home:</strong> Inspired by the Vaporwave aesthetic</p>
+        <p><strong>Projects:</strong> Inspired by the 1996 Space Jam website by Warner Bros.</p>
+        <p><strong>Resources:</strong> Inspired by the Windows XP interface by Microsoft</p>
+        <p>– Sound credit to Pixabay and Freesound user deeplayerking</p>
+        <p><strong>About:</strong> Inspired by the Cyberpunk aesthetic</p>
+        <p><em>All images generated with AI</em></p>
+      </div>
+    </div>
   </div>
-</nav>
 
-<!-- ===== MAIN CONTENT ===== -->
-<div class="container py-5 text-center text-white">
-  <h1 class="mb-4">👋 Welcome</h1>
-  <p class="lead">Website under construction — still being vibe developed!</p>
+  <!-- FOOTER -->
+  <footer>
+    <p>© 2025 Zachary Strange | All vibes reserved.</p>
+    <p>Built with <a href="https://getbootstrap.com/" class="text-danger" target="_blank">Bootstrap</a> | Powered by <a href="https://pages.github.com/" class="text-danger" target="_blank">GitHub Pages</a></p>
+    <div class="mt-2">
+      <a href="#" class="text-decoration-none text-danger">⬆️ Back to Top ⬆️</a>
+    </div>
+  </footer>
 
-  <p>I'm <strong>Zach</strong>, an aspiring cybersecurity professional focused on building a solid foundation across blue team, red team, and DFIR domains.</p>
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 
-  <p>This is my GitHub Pages portfolio — a place to:</p>
-  <ul class="list-unstyled">
-    <li>📚 Curate cybersecurity tools and learning resources</li>
-    <li>🛠️ Showcase personal projects and hands-on labs</li>
-    <li>🎯 Track my professional development</li>
+</body>
+</html>
