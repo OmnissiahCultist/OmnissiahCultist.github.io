@@ -1,6 +1,6 @@
 /* ===== LANDING INDEX CSS ===== */
 
-/* Layout Wrapper */
+/* Layout */
 .landing-container {
     display: flex;
     flex-direction: column;
@@ -9,7 +9,7 @@
     background-color: black;
     overflow-x: hidden;
 }
-/* Background Image Ref */
+/* Vaporwave Image*/
 .background-image {
     background-image: url('/assets/images/ChatGPT_vapor.png');
     background-size: contain;

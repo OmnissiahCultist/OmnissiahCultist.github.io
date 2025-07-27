@@ -9,7 +9,7 @@ body {
     color: red;
     font-family: 'Orbitron', sans-serif;
 }
-/* Layout Wrapper */
+/* Cyberpunk Image Layout */
 .background-wrapper {
     background-image: url('/assets/images/ChatGPT_cyberpunk.png');
     background-size: contain;
