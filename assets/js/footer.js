@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", function () {
         <hr class="bg-secondary my-4">
         <p class="mb-0 small">© 2025 Zachary Strange | All vibes reserved.</p>
         <p class="mb-0 small">Built with <a href="https://getbootstrap.com/" class="text-white" target="_blank">Bootstrap</a> | Powered by <a href="https://pages.github.com/" class="text-white" target="_blank">GitHub Pages</a></p>
-        <a href="#">⬆️ Back to Top ⬆️</a>
+        <a href="#">⬆️Back to Top⬆️</a>
       </div>
     </div>
   `;
