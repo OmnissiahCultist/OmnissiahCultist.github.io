@@ -75,3 +75,15 @@ footer .btn-primary {
     margin: 0 10px;
   }
 }
+
+/* ===== PAGE STYLE PLACE HOLDER ===== */
+
+/* Default */
+body.placeholder-page {
+  background-color: #000;
+  color: white;
+  font-family: Tahoma, sans-serif;
+  margin: 0;
+  padding: 2rem;
+  min-height: 100vh;
+}
