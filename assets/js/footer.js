@@ -19,7 +19,6 @@ document.addEventListener("DOMContentLoaded", function () {
   `;
 
   const footer = document.createElement("footer");
-  footer.style.width = "100vw";
   footer.innerHTML = footerHTML;
   document.body.appendChild(footer);
 });
