@@ -1,14 +1,5 @@
 /* ===== ABOUT INDEX CSS ===== */
 
-/* Google Orbitron Font */
-@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap');
-body {
-    margin: 0;
-    padding: 0;
-    background-color: #000;
-    color: red;
-    font-family: 'Orbitron', sans-serif;
-}
 /* Cyberpunk Image Layout */
 body.about-page {
     background-image: url('/assets/images/ChatGPT_cyberpunk.png');
@@ -17,6 +8,8 @@ body.about-page {
     background-position: center;
     color: #000;
     }
+/* Google Font Import: Orbitron */
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap');
 /* Text Box */
 .content-box {
     background-color: rgba(0, 0, 0, 0.75);
@@ -28,4 +21,6 @@ body.about-page {
     position: relative;
     top: 50px;
     text-align: center;
+    color: red;
+    font-family: 'Orbitron', sans-serif;
 }
