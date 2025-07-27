@@ -1,4 +1,10 @@
-/* ===== NAVBAR STYLES ===== */
+/*
+GLOBAL CSS 
+*/
+
+/* ===== NAVBAR ===== */
+
+/* Base */
 .navbar-custom {
   background-color: black;
   font-family: Tahoma, sans-serif;
@@ -8,14 +14,13 @@
   width: 100vw;
   max-width: 100vw;
 }
-
+/* Links */
 .navbar-custom .nav-link {
   color: white;
   margin: 0 15px;
   position: relative;
   transition: color 0.3s;
 }
-
 .navbar-custom .nav-link::after {
   content: "";
   position: absolute;
@@ -26,35 +31,24 @@
   background-color: red;
   transition: width 0.3s;
 }
-
+/* Link Effects */
 .navbar-custom .nav-link:hover {
   color: red;
   text-shadow: 0 0 5px red;
   animation: glitch 0.5s infinite;
 }
-
 .navbar-custom .nav-link:hover::after {
   width: 100%;
 }
-
 @keyframes glitch {
   0%, 40%, 80% { text-shadow: 2px 0 red, -2px 0 red; }
   20%, 60%     { text-shadow: -2px 0 red, 2px 0 red; }
   100%         { text-shadow: none; }
 }
 
-/* ===== BACKGROUND IMAGE SECTION ===== */
-.background-image {
-  background-image: url('/assets/images/ChatGPT_vapor.png');
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: top center;
-  width: 100%;
-  max-width: 1536px;
-  aspect-ratio: 1536 / 1024;
-}
+/* ===== FOOTER ===== */
 
-/* ===== FOOTER STYLES ===== */
+/* Base */
 footer {
   font-family: Tahoma, sans-serif;
   width: 100vw;
@@ -65,25 +59,17 @@ footer {
   padding-bottom: 0.5rem;
   text-align: center;
 }
-
-footer a {
-  color: white;
-  text-decoration: none;
+hr {
+  border-color: #666;
 }
-
+footer h2 {
+  font-size: 1.5rem;
+}
+/* Link Button */
 footer .btn-primary {
   background-color: blue;
   border-color: blue;
 }
-
-hr {
-  border-color: #666;
-}
-
-footer h2 {
-  font-size: 1.5rem;
-}
-
 @media (max-width: 768px) {
   .navbar-custom .nav-link {
     margin: 0 10px;

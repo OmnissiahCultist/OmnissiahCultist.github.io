@@ -1,5 +1,8 @@
-// /assets/js/footer.js
+/* ===== FOOTER JS ===== */
+
+/* Post DOM Condition */
 document.addEventListener("DOMContentLoaded", function () {
+  /* Footer HTML */
   const footerHTML = `
     <div class="text-center text-white py-4 mt-5" style="background-color: black;">
       <div class="container">
@@ -11,15 +14,12 @@ document.addEventListener("DOMContentLoaded", function () {
         <hr class="bg-secondary my-4">
         <p class="mb-0 small">© 2025 Zachary Strange | All vibes reserved.</p>
         <p class="mb-0 small">Built with <a href="https://getbootstrap.com/" class="text-white" target="_blank">Bootstrap</a> | Powered by <a href="https://pages.github.com/" class="text-white" target="_blank">GitHub Pages</a></p>
-        <div class="mt-2">
-          <a href="#" class="text-decoration-none text-white">⬆️ Back to Top ⬆️</a>
-        </div>
+        <a href="#">⬆️ Back to Top ⬆️</a>
       </div>
     </div>
   `;
-
+  /* Create-Inject-Add Element After Body */
   const footer = document.createElement("footer");
   footer.innerHTML = footerHTML;
   document.body.appendChild(footer);
 });
-

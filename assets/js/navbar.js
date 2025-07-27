@@ -1,5 +1,9 @@
-// /assets/js/navbar.js
+/* ===== NAVBAR JS ===== */
+
+
+/* Post DOM Condition */
 document.addEventListener("DOMContentLoaded", function () {
+  /* Navbar HTML */
   const navbarHTML = `
     <nav class="navbar navbar-expand-lg navbar-dark navbar-custom">
       <div class="container-fluid justify-content-center">
@@ -12,7 +16,7 @@ document.addEventListener("DOMContentLoaded", function () {
       </div>
     </nav>
   `;
-
+  /* Create-Inject-Add Element Before Body*/
   const header = document.createElement("header");
   header.innerHTML = navbarHTML;
   document.body.prepend(header);
