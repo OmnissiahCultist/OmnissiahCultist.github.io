@@ -14,6 +14,8 @@ document.addEventListener("DOMContentLoaded", function () {
   `;
 
   const header = document.createElement("header");
+  header.style.width = "100vw";
+  header.style.margin = "0";
   header.innerHTML = navbarHTML;
   document.body.prepend(header);
 });
