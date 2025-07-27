@@ -8,3 +8,6 @@ body.landing-page {
     background-position: center;
     background-color: #000;
 }
+.image-wrapper {
+  min-height: 100vh;
+}
