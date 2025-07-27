@@ -5,7 +5,7 @@
 /* Cyberpunk Image Layout */
 body.about-page {
     background-image: url('/assets/images/ChatGPT_cyberpunk.png');
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center top;
     background-position: center;
