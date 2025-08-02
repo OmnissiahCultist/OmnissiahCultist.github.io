@@ -2,9 +2,10 @@
 
 /* Vaporwave Image Layout*/
 body.landing-page {
-  background-size: contain;
+  background-image: url('/assets/images/ChatGPT_vapor.png');
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: top center;
   background-color: #000;
-
+  min-height: 100vh;
 }
