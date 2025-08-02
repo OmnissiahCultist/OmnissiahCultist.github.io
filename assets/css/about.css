@@ -4,24 +4,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap');
 /* Cyberpunk Image Layout */
 body.about-page {
-    margin: 0;
-    min-height: 100vh;
-    background: url('/assets/images/ChatGPT_cyberpunk.png') top center no-repeat;
-    background-size: cover;
-    background-color: #000;
-    color: red;
-    font-family: 'Orbitron', sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
+  margin: 0;
+  min-height: 100vh;
+  background-image: url('/assets/images/ChatGPT_cyberpunk.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-color: #000;
+  color: red;
+  font-family: 'Orbitron', sans-serif;
 }
 /* Text Box */
 .content-box {
   background-color: rgba(0, 0, 0, 0.75);
   box-shadow: 0 0 20px red;
   padding: 30px;
-  width: 100%;
+  margin: 50px auto 0 auto;
+  width: 90%;
   max-width: 900px;
   text-align: center;
-  box-sizing: border-box;
 }
