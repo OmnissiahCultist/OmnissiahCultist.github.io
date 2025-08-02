@@ -3,135 +3,28 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>💀 ARCHIVED PROJECTS 💀</title>
+  <title>Archived Projects!</title>
 
-  <!-- Bootstrap CSS -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- ===== EXTERNAL CSS ===== -->
 
-  <!-- Custom Styles -->
-  <style>
-    body {
-      background-color: black;
-      color: red;
-      font-family: 'Comic Sans MS', cursive, sans-serif;
-      margin: 0;
-      padding: 0;
-    }
-
-    .navbar-custom {
-      background-color: black;
-      font-family: Tahoma, sans-serif;
-      border: 2px solid red;
-      box-shadow: 0 0 10px red;
-      justify-content: center;
-    }
-
-    .navbar-custom .nav-link {
-      color: white;
-      margin: 0 15px;
-      position: relative;
-      transition: color 0.3s;
-    }
-
-    .navbar-custom .nav-link::after {
-      content: "";
-      position: absolute;
-      width: 0%;
-      height: 2px;
-      bottom: -5px;
-      left: 0;
-      background-color: red;
-      transition: width 0.3s;
-    }
-
-    .navbar-custom .nav-link:hover {
-      color: red;
-      text-shadow: 0 0 5px red;
-      animation: glitch 0.5s infinite;
-    }
-
-    .navbar-custom .nav-link:hover::after {
-      width: 100%;
-    }
-
-    @keyframes glitch {
-      0% { text-shadow: 2px 0 red, -2px 0 red; }
-      20% { text-shadow: -2px 0 red, 2px 0 red; }
-      40% { text-shadow: 2px 0 red, -2px 0 red; }
-      60% { text-shadow: -2px 0 red, 2px 0 red; }
-      80% { text-shadow: 2px 0 red, -2px 0 red; }
-      100% { text-shadow: none; }
-    }
-
-    .main-image {
-      display: block;
-      margin: 40px auto 20px auto;
-      width: 33%;
-      height: auto;
-    }
-
-    .section-title {
-      text-align: center;
-      color: yellow;
-      font-size: 3rem;
-      font-weight: bold;
-    }
-
-    .section-subtext {
-      text-align: center;
-      color: red;
-      font-style: italic;
-      font-size: 1.2rem;
-      margin-bottom: 2rem;
-    }
-
-    .project-section {
-      text-align: center;
-      margin-top: 3rem;
-    }
-
-    .project-link {
-      display: block;
-      color: red;
-      text-decoration: underline;
-      font-style: italic;
-      font-size: 1.2rem;
-      margin-bottom: 1rem;
-    }
-
-    footer {
-      background-color: black;
-      font-family: Tahoma, sans-serif;
-      color: white;
-    }
-  </style>
+  <!-- Bootstrap CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <!-- Global -->
+  <link rel="stylesheet" href="/assets/css/global.css" />
 </head>
 
+<!-- ===== PAGE BODY CONTENT ===== -->
+
 <body>
-
-  <!-- ===== NAVIGATION BAR ===== -->
-  <nav class="navbar navbar-expand-lg navbar-dark navbar-custom">
-    <div class="container-fluid justify-content-center">
-      <ul class="navbar-nav">
-        <li class="nav-item"><a class="nav-link" href="/index.html">Home</a></li>
-        <li class="nav-item"><a class="nav-link" href="/projects/index.html">Projects</a></li>
-        <li class="nav-item"><a class="nav-link" href="/resources/index.html">Resources</a></li>
-        <li class="nav-item"><a class="nav-link" href="/about.html">About This Site</a></li>
-      </ul>
-    </div>
-  </nav>
-
-  <!-- ===== PAGE TITLE & INTRO ===== -->
+  <!-- Page Title and Intro -->
   <br>
   <h1 class="section-title">💀 ARCHIVED 💀</h1>
   <p class="section-subtext">Inactive or shelved projects preserved for reflection and insight.</p>
-
-  <!-- ===== IMAGE BANNER ===== -->
+  <!-- Construction Image -->
   <img src="/assets/images/ChatGPT_graves.png" alt="Gravestone illustration for archived projects" class="main-image">
-
-  <!-- ===== PROJECT SECTION ===== -->
-  <div class="project-section">
-    <h2 class="section-title">Projects</h2>
+  <!-- Project List/Links -->
+  <div class="section-title">Projects</div>
+  <div class="project-entry">
     <a class="project-link" href="https://github.com/OmnissiahCultist/One-time-pad-python-practice" target="_blank">
       One-Time Pad Code
     </a>
@@ -154,11 +47,15 @@
       <div class="mt-2">
         <a href="#" class="text-decoration-none text-white">⬆️ Back to Top ⬆️</a>
       </div>
-    </div>
-  </footer>
+ </div>
 
-  <!-- Bootstrap JS -->
+  <!-- ===== EXTERNAL JS ===== -->
+
+  <!-- Bootstrap CDN -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-
+  <!-- Navbar -->
+  <script src="/assets/js/navbar.js"></script>
+  <!-- Footer -->
+  <script src="/assets/js/footer.js"></script>
 </body>
 </html>

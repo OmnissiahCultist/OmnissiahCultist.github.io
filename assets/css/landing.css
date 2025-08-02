@@ -7,7 +7,6 @@ body.landing-page {
     background-repeat: no-repeat;
     background-position: center center;
     background-color: #000;
-    min-height: 100vh;
 }
 .image-wrapper {
   min-height: 100vh;
