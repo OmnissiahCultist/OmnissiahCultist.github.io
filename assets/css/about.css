@@ -6,10 +6,12 @@
 body.about-page {
     background-image: url('/assets/images/ChatGPT_cyberpunk.png');
     background-size: cover;
+    background-size: cover;
+    min-height: 1024px;
+    min-width: 1536px;
     background-repeat: no-repeat;
-    background-position: center top;
+    background-position: top center;
     background-color: #000;
-    min-height: 100vh; 
     color: red;
     font-family: 'Orbitron', sans-serif;
 }
