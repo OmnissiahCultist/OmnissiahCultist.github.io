@@ -7,9 +7,9 @@ body.landing-page {
   background-repeat: no-repeat;
   background-position: top center;
   background-color: #000;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
 }
 .page-wrapper {
   flex: 1;
