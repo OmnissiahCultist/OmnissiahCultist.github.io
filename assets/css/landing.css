@@ -1,20 +1,15 @@
 /* ===== LANDING INDEX CSS ===== */
 
 /* Vaporwave Image Layout*/
-body.landing-page {
-  background-image: url('/assets/images/ChatGPT_vapor.png');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: top center;
+body {
+  margin: 0;
   background-color: #000;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
 }
-.page-wrapper {
-  flex: 1;
-  position: relative;
-  z-index: 1;
-  display: flex;
-  flex-direction: column;
+
+.landing-image {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: contain;
 }
+
