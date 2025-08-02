@@ -87,3 +87,43 @@ body.placeholder-page {
   padding: 2rem;
   min-height: 100vh;
 }
+
+/* ===== PROJECT PAGES ===== */
+
+/* Background & Font Default */
+body.project-background {
+  background-color: black;
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+/* Title Texts */
+.section-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: yellow;
+  text-align: center;
+  margin-top: 30px;
+}
+/* Description Text */
+.section-description {
+  color: red;
+  font-style: italic;
+  font-size: 1.25rem;
+  text-align: center;
+  margin-bottom: 30px;
+}
+/* Project Name Text */
+.project-entry {
+  color: red;
+  font-style: italic;
+  font-size: 1.25rem;
+  text-align: center;
+}
+/* Image Layout */
+.banner-img {
+  display: block;
+  margin: 40px auto 20px;
+  width: 33%;
+  height: auto;
+}
