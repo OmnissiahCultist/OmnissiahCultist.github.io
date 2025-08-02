@@ -3,7 +3,7 @@
 /* Vaporwave Image Layout*/
 body.landing-page {
     background-image: url('/assets/images/ChatGPT_vapor.png');
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
     background-color: #000;
