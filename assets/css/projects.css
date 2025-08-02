@@ -1,0 +1,66 @@
+/* ===== PROJECT INDEX CSS ===== */
+
+/* Space Image Layout */
+body.projects-page {
+    background-image: url('/assets/images/ChatGPT_space.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #000;
+}
+/* Strange Jam Image Layout */
+.jam-centerpiece {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 300px;
+}
+/* Planet Image Layouts */
+.projects-orbit-container {
+    position: relative;
+    width: 600px;
+    height: 600px;
+    margin: 0 auto;
+}
+.orbit-planet {
+    position: absolute;
+    width: 80px;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+    text-decoration: none;
+}
+.orbit-planet img {
+    width: 80px;
+}
+.planet-top-left {
+    top: 15%;
+    left: 15%;
+}
+.planet-top-right {
+    top: 15%;
+    right: 15%;
+}
+.planet-bottom-left {
+    bottom: 15%;
+    left: 15%;
+}
+.planet-bottom-right {
+    bottom: 15%;
+    right: 15%;
+}
+/* Planet Text */
+.orbit-planet p {
+    margin-top: 5px;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: yellow;
+    text-shadow: 2px 2px 4px #000;
+    font-size: 1.25rem;
+}
+/* Planet Hover Effect */
+.orbit-planet:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 15px yellow;
+}
