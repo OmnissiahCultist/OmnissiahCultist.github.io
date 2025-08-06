@@ -19,10 +19,22 @@ aboutme.html
         index.html
 
     - industry -
+        - whole section is meant to be a quick reference? Focus UX and ease of access.
         index.html
         cheatsheets.html
             Personal Ones:
             Official:
+        jargon-pubs.html
+            - Meant to combine jargon and important publications.
+        history.html
+            - GRC bodies.
+            - Cyber court cases.
+        numbers-ref.html
+            - Reports, metrics, meant to be quick reference sheet.
+            - Maybe revise?
+        news-intel.html
+            - News sources?
+            - Threat intel platforms?
 
     - exposure -
         index.html

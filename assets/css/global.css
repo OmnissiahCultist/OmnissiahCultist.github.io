@@ -119,6 +119,7 @@ body.project-background {
   font-style: italic;
   font-size: 1.25rem;
   text-align: center;
+  text-decoration: underline
 }
 /* Image Layout */
 .banner-img {
