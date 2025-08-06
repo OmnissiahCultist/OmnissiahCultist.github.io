@@ -1,12 +1,12 @@
 This is a file to help me stage my thoughts and outline my site layout across devices.
 
 
-CURRENTLY:
-- Outdated lol, go cross ref files to make sure accurate.
+OUTDATED?:
+- current.
 
 
 TO BE CATEGORIZED:
-- cyber cert path website.
+- nothing.
 
 
 |=== Web Layout Tree ===|
@@ -43,6 +43,11 @@ aboutme.html
                 1. Simply Cyber
             Possible Local Groups:
                 1. ISACA
+        jobs.html
+            - job hunting resources/information?
+            - popular job board links.
+            - finding job videos (like antisyphon).
+            - cert path web source chart.
 
     - learning -
         index.html
