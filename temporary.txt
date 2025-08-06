@@ -1,0 +1,83 @@
+TO BE CATEGORIZED:
+- cyber cert path website.
+
+
+|=== Web Layout Tree ===|
+index.html
+aboutme.html
+
+- resources -
+
+    - tools -
+        index.html
+
+    - industry -
+        index.html
+        cheatsheets.html
+            Personal Ones:
+            Official:
+
+    - exposure -
+        index.html
+        communities.html
+            Cyber Communities:
+                1. Simply Cyber
+            Possible Local Groups:
+                1. ISACA
+
+    - learning -
+        index.html
+        hands-on.html
+            CTF Sites:
+                1. metaCTF.
+                    - Link: website
+                2. picoCTF.
+                    - Link: website
+            Lab Repos:
+                1. antisyphon lab repo.
+                    - Link: GitHub
+                2. Azr43lKn1ght DFIR-LABS.
+                    - Link: GitHub
+            Learning Resources:
+                1. vuln webapp DVWA.
+                    - Link: GitHub
+        platforms.html
+            Learning Platforms:
+                1. mimo app.
+                    - Link: website
+                2. antisyphon.
+                    - Link: website
+                3. hack-the-box.
+                    - Link: website
+                4. KC7cyber practice.
+                    - Link: website
+                5. malwarepacketanalysis.
+                    - Link: website
+                6. silicon dojo.
+                    - Link: website
+                    - Link: youtube (elicomputerguy)
+            Community Platforms:
+                1. DFIRdva.
+                    - Link: website
+                2. BHIS.
+                    - Link: youtube
+                3. Simply Cyber.
+                    - Link: youtube
+                4. Professor Messer.
+                    - Link: youtube
+                    - Link: website
+            (Individual) Content Creators:
+                1. Tyler Ramsbey.
+                    - Link: youtube
+                2. Blackperl.
+                    - Link: youtube
+        niche.html
+            Tool Repos:
+                1. Blackperl repo.
+                    - Link: GitHub
+                2. DJBsec repo.
+                    - Link: GitHub
+            Other Learning Sources:
+                1. Unit 42 Tutorials.
+                   - Link: Learning GitHub
+                   - Link: Cybersecurity Tutorial Archives
