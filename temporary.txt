@@ -23,12 +23,19 @@ aboutme.html
         index.html
         cheatsheets.html
             Personal Ones:
-            Official:
+                1. OS File Systems.
+                    - Linux, Windows, File structure, process methods, and filing types?
+                2. Different file types.
+                    - XML, jpg, png, etc.
+            Official?:
+                SANs cheat sheets link?
+                OWASP playbook link?
         jargon&pubs.html
             - Meant to combine jargon and important publications.
         history.html
             - GRC bodies.
             - Cyber court cases.
+            - Cyber Laws.
         intel.html
             - News sources?
             - Threat intel platforms?
