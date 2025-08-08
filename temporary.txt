@@ -12,6 +12,7 @@ TO BE CATEGORIZED:
 |=== Web Layout Tree ===|
 index.html
 aboutme.html
+    - Make more robust and describe the purpose better. Projects is straightforward. Resources are basically just pointers and my opinion to what I view as relevant sources based off my experiences.
 
 - resources -
 
@@ -22,25 +23,50 @@ aboutme.html
         - whole section is meant to be a quick reference? Focus UX and ease of access.
         index.html
         cheatsheets.html
+            - Heavy focus on UX
             Personal Ones:
                 1. OS File Systems.
                     - Linux, Windows, File structure, process methods, and filing types?
                 2. Different file types.
                     - XML, jpg, png, etc.
+                3. IPv4 vs IPv6.
+                    - Different headers, protocols, and associated tech
+                    - List out quick reference for key components
+                4. Top Protocol/Ports TLDR.
+                5. Top (GRC) Audits/Compliance Sources?
             Official?:
                 SANs cheat sheets link?
                 OWASP playbook link?
+            Pictures/other Media?
         jargon&pubs.html
+            - Maybe add section headers to bettter sort categories?
+                - For sure add "Cyber Security Divisions" or some better descriptor.
+                - "how we talk about cybersec roles/structures/concepts/frameworks"
+                - Have a section on guidelines/frameworks but keep seperate from legal?
+            - Def add table of contents after structure is complete.
             - Meant to combine jargon and important publications.
+            CIA Triad.
+            Job Titles
+                - This one may be a lost cause.
+            TTP, ATPs, Threat Actor, Nation State Actor, etc.
+            OSI Model vs TCP/IP and Pub.
+            Cyber Security Divisions:
+                1. Cyber Strategies vs Teams?
+                    - OSINT
+                    - DFIR
+                    - Threat Hunter/Modeler?
+                3. Blue/Red/Purple Team.
+                    -Maybe add pentesting
+                4. GRC.
         history.html
             - GRC bodies.
                 FIRST
             - Cyber court cases.
             - Cyber Laws.
+                - And Incidents that influenced them.
+            - Maybe add notorious cybercrime incidents?
         intel.html
-            - News sources?
-            - Threat intel platforms?
-            - Reports, metrics, meant to be directing to intel reports.
+            Add NMAP top protocols
 
     - exposure -
         index.html
