@@ -38,26 +38,7 @@ aboutme.html
                 SANs cheat sheets link?
                 OWASP playbook link?
             Pictures/other Media?
-        jargon&pubs.html
-            - Maybe add section headers to bettter sort categories?
-                - For sure add "Cyber Security Divisions" or some better descriptor.
-                - "how we talk about cybersec roles/structures/concepts/frameworks"
-                - Have a section on guidelines/frameworks but keep seperate from legal?
-            - Def add table of contents after structure is complete.
-            - Meant to combine jargon and important publications.
-            CIA Triad.
-            Job Titles
-                - This one may be a lost cause.
-            TTP, ATPs, Threat Actor, Nation State Actor, etc.
-            OSI Model vs TCP/IP and Pub.
-            Cyber Security Divisions:
-                1. Cyber Strategies vs Teams?
-                    - OSINT
-                    - DFIR
-                    - Threat Hunter/Modeler?
-                3. Blue/Red/Purple Team.
-                    -Maybe add pentesting
-                4. GRC.
+        jargon.html
         history.html
             - GRC bodies.
                 FIRST
